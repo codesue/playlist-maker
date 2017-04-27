@@ -12,7 +12,7 @@ SPOTIPY_REDIRECT_URI="your-app-redirect-url"
 scope = "playlist-modify-public"
 username = ""
 
-token = util.prompt_for_user_token(username, scope)
+token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
 sp = spotipy.Spotify(auth=token)
 
 # Debug logging
