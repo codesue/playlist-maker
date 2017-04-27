@@ -11,4 +11,10 @@ SPOTIPY_REDIRECT_URI="your-app-redirect-url"
 username = ""
 ```
 
+Homepage:
+<img src="https://github.com/codesue/playlist-maker/blob/master/screenshots/playlist_maker_index.png" alt="screenshot of Playlist Maker homepage" />
+
+Results page example:
+<img src="https://github.com/codesue/playlist-maker/blob/master/screenshots/playlist_maker_madonna.png" alt="screenshot of Playlist Maker Madonna results" />
+
 Website uses Story theme by <a href="https://html5up.net/">HTML5UP</a>, an <a href="https://unsplash.com/@alicemoore?photo=E--AUpYXbjM">Alice Moore</a> image from Unsplash, and content from Spotify. 
