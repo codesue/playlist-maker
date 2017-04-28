@@ -1,6 +1,6 @@
 # playlist-maker
 A web app that lets you make a Spotify playlist with songs by artists who are similar to your favorite artist.
-Check out some of the <a href="https://open.spotify.com/user/codesue">playlists I've made with Playlist Maker</a>.
+Check out some of the <a href="https://open.spotify.com/user/codesue">playlists made with Playlist Maker</a>.
 
 Required: <a href="https://developer.spotify.com/">Spotify Developer account</a>, <a href="http://flask.pocoo.org/">flask</a>, <a href="https://spotipy.readthedocs.io/en/latest/">spotipy</a>
 
