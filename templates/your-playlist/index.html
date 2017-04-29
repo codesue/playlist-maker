@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A web app that lets you make a Spotify playlist
-	with songs by artists who are similar to your favorite artist.">
+	full of songs by your favorite artist and artists who are similar to them.">
 	<meta name="author" content="Suzen Fylke">
 	
 	<link rel="icon" type="image/png" href="../static/images/suzenfylke_favicon.png">	
@@ -22,7 +22,7 @@
 					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h2>Here's Your Playlist</h2>
-							<p>Your playlist if full of songs by artists similar to {{ artist_name }}. Enjoy! 
+							<p>Your playlist is full of popular songs by {{ artist_name }} and similar artists. Enjoy! 
 							<br /><a href="{{ url_for('index') }}">Click here to make another playlist.</a></p>
 							<!--Change player them by pasting or removing &theme=white at the end of playlist url. -->
 							<iframe src="{{ playlist_iframe_href }}" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
