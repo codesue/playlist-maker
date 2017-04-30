@@ -92,13 +92,16 @@ def show_playlist():
 		
 	# Make playlist iframe href
 	playlist_iframe_href = "https://open.spotify.com/embed?uri=spotify:user:" + username + ":playlist:" + playlist_id + "&theme=white"
-		
-		
+				
 	return render_template("your-playlist/index.html", artist_name=artist_name, artist_image_url=artist_image_url, playlist_iframe_href=playlist_iframe_href)
 
 @app.route("/artist-not-found/")
 def artist_not_found():
 	return render_template("/artist-not-found/index.html")
+
+@app.errorhandler(404)
+def page_not_found(e):
+	return render_template("/error-pages/404.html")
 
 if __name__ == "__main__":
 	app.debug = True
