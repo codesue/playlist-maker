@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for, Markup, session, flash
+from flask import Flask, request, render_template, redirect, url_for, Markup
 import spotipy
 import spotipy.util as util
 
