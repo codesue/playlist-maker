@@ -16,7 +16,7 @@ Alternatively, you can set your app credentials as environment variables. If so,
 Homepage:
 <img src="https://github.com/codesue/playlist-maker/blob/master/screenshots/playlist_maker_index.png" alt="screenshot of Playlist Maker homepage" />
 
-Example results page:
+Example Results Page:
 <img src="https://github.com/codesue/playlist-maker/blob/master/screenshots/playlist_maker_madonna_results.png" alt="screenshot of Playlist Maker Madonna results" />
 
 Website uses Story theme by <a href="https://html5up.net/">HTML5UP</a>, an <a href="https://unsplash.com/@alicemoore?photo=E--AUpYXbjM">Alice Moore</a> image from Unsplash, and content from Spotify. 
