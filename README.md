@@ -6,15 +6,16 @@ Required: <a href="https://developer.spotify.com/">Spotify Developer account</a>
 
 Usage: edit the following in app.py then run <code>python app.py</code>
 ```python
-SPOTIPY_CLIENT_ID="your-spotify-client-id"
-SPOTIPY_CLIENT_SECRET="your-spotify-client-secret"
-SPOTIPY_REDIRECT_URI="your-app-redirect-url"
+SPOTIPY_CLIENT_ID = "your-spotify-client-id"
+SPOTIPY_CLIENT_SECRET = "your-spotify-client-secret"
+SPOTIPY_REDIRECT_URI = "your-app-redirect-url"
 username = ""
 ```
 Alternatively, you can set your app credentials as environment variables. If so, you don't need to pass them to <code>util.prompt_for_user_token</code>.
 
 Homepage:
 <img src="https://github.com/codesue/playlist-maker/blob/master/screenshots/playlist_maker_index.png" alt="screenshot of Playlist Maker homepage" />
+
 
 Example Results Page:
 <img src="https://github.com/codesue/playlist-maker/blob/master/screenshots/playlist_maker_madonna_results.png" alt="screenshot of Playlist Maker Madonna results" />
