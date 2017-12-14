@@ -5,9 +5,9 @@ import spotipy.util as util
 app = Flask(__name__)
 
 # DO NOT PUBLISH CREDENTIALS!
-SPOTIPY_CLIENT_ID="your-spotify-client-id"
-SPOTIPY_CLIENT_SECRET="your-spotify-client-secret"
-SPOTIPY_REDIRECT_URI="your-app-redirect-url"
+SPOTIPY_CLIENT_ID = "your-spotify-client-id"
+SPOTIPY_CLIENT_SECRET = "your-spotify-client-secret"
+SPOTIPY_REDIRECT_URI = "your-app-redirect-url"
 
 scope = "playlist-modify-public"
 username = ""
