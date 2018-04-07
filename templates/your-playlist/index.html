@@ -25,7 +25,7 @@
 							<p>Your playlist is full of popular songs by {{ artist_name }} and similar artists. Enjoy! 
 							<br /><a href="{{ url_for('index') }}">Click here to make another playlist.</a></p>
 							<!--Change player them by pasting or removing &theme=white at the end of playlist url. -->
-							<iframe src="{{ playlist_iframe_href }}" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
+							<iframe src="{{ playlist_iframe_href }}" theme="white" width="100%" height="300" frameborder="0" allowtransparency="true"></iframe>
 						</div>
 						<div class="image">
 							<img src="{{ artist_image_url }}" alt="image of artist you searched for" />
