@@ -15,19 +15,6 @@ username = ""
 token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
 sp = spotipy.Spotify(auth=token)
 
-# Debug logging
-import logging
-import sys
-# Defaults to stdout
-logging.basicConfig(level=logging.INFO)
-log = logging.getLogger(__name__)
-try: 
-	log.info('Logging to console')
-except:
-	_, ex, _ = sys.exc_info()
-	log.error(ex.message)
-
-
 @app.route("/")
 def index():
 	return render_template("index.html")
