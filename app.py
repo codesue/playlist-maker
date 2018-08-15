@@ -22,7 +22,7 @@ def index():
 @app.route("/your-playlist/")
 def show_playlist():
 	desired_artist = request.args.get("artist_to_search")
-	# Handles no artist entered in form
+	# Handle no artist entered in form
 	if not desired_artist:
 		return redirect(url_for("index"))
 	
@@ -59,7 +59,7 @@ def show_playlist():
 			song_count += 1
 	
 	# Add related artist tracks to list of tracks
-	# Max 10 related artists, Max 5 tracks per artist b/c API limits
+	# Max 10 related artists, max 5 tracks per artist b/c API limits
 	related_artist_count = 0
 	related_song_count = 0
 	for artist in related_artists["artists"]:
